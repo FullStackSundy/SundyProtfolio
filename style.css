@@ -1,0 +1,63 @@
+
+
+/** Header **/
+
+header {
+  background-color: rgb(10, 1, 1);
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  color: whitesmoke;
+}
+
+main h1 {
+  color: rgb(8, 235, 46);
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+}
+
+main h2 {
+  color: rgb(24, 245, 4);
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+img {
+  width:40%
+}
+
+/* background color  */
+section.bg-callout {  
+   padding: 60px 0;
+   background-color: rgb(137, 141, 138);
+}
+
+/* groups and items */
+.group {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px; 
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.landscape {
+  background-image:url('./images/retro-sunrise.jpg');
+  background-size: 100%;
+  height: 500px;
+}
+
+/*   footer   */
+
+footer h1 {
+  color: black;
+}
